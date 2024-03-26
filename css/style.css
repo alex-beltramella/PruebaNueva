@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100..800&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.titulo-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+.box {
+    width: 300px;
+    background: #e2e2e2;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 10px -5px 20px 0 #0007;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub {
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    padding-top: 10px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.subtitulo-container {
+    margin: auto;
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+.img {
+    width: 150px;
+    border-radius: 100%;
+    margin-top: 10px;
+    box-shadow: 0 0 20px 0 #f88;
+}
+
+.buttom-container {
+    padding-bottom: 20px;
+}
+.buttom {
+    border: 1px solid #f89;
+    background-color: #f88;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 5px 2px 2.5px 1px  rgba(255, 135, 102, 0.61);
+    color: black;
+    transition: transforme 0.3s ease;
+}
+.buttom:hover {
+    transform: transition;
+    font-size: 15px;
+    box-shadow: 5px 2px 2.5px 1px  #f86;
+    background-color: rgb(248, 107, 121);
+}
+
+
+/*informacion*/
+
+.card-container {
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 20px;
+    width: 1000px;
+    height: 300px;
+    background-color: rgb(248, 165, 165);
+    box-shadow: 8px 10px 20px 0 #0007;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.img-informacion-container {
+    margin: auto;
+    margin-left: 10px;
+}
+.img-informacion {
+    width: 250px;
+    border-radius: 100%;
+    margin-top: 10px;
+    box-shadow: 5px 5px 15px 0 rgb(0, 0, 0);
+}
+
+.informacion-titulos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.informacion-container {
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.informacion {
+    text-align: justify;
+}
+
+
+
+
+
