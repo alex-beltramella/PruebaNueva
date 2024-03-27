@@ -10,12 +10,18 @@
     list-style: none;
 }
 
+body {
+    background-image: url(/img/fondo-textura-acuarela-purpura-rosa.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
 .titulo-container {
     display: flex;
     justify-content: center;
     padding-top: 20px;
 }
-
 
 .box {
     width: 300px;
@@ -123,6 +129,31 @@
 .informacion {
     text-align: justify;
 }
+
+.buttom-container-volver {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+.buttom-volver {
+    border: 1px solid #f89;
+    background-color: rgb(255, 110, 110);
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 3px 2px 2.5px 1px  rgb(255, 135, 102);
+    color: black;
+    transition: transforme 0.3s ease;
+}
+
+
+
+/*PRUEBA HOVER*/
+
+
+
+
 
 
 
